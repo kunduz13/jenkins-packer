@@ -46,13 +46,4 @@ podTemplate(cloud: 'kubernetes', label: 'packer', showRawYaml: false, yaml: temp
         }
         }
     }
-}
-
-
-
-
-
-
-
-
-
+}  
