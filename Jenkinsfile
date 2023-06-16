@@ -39,7 +39,7 @@ podTemplate(cloud: 'kubernetes', label: 'packer', showRawYaml: false, yaml: temp
                 git branch: 'main', url: 'https://github.com/kunduz13/jenkins-packer.git'
             }
             
-            stage("Packer"){
+            stage("Packer1"){
                 sh "packer build -var 'jenkins_build_number=${buildNumber}' packer.pkr.hcl"
             }
             }
